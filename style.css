@@ -1,9 +1,29 @@
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-}
-
-.error {
-    border: 1px solid red;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    ;
-}
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+        border: none;
+        background-image: url('images/background.png');
+    }
+    
+    .is-invalid {
+        border: 1px solid red;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    }
+    
+    .card-header {
+        color: wheat;
+    }
+    
+    .form-group {
+        color: wheat;
+    }
+    
+    body {
+        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(233, 148, 148, 1) 100%);
+    }
+    
+    #register {
+        border: none;
+        background-color: cadetblue;
+        color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
